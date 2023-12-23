@@ -1,0 +1,215 @@
+:root {
+  --headertxt: rgb(6, 143, 75);
+}
+
+select, input {
+  padding: 15px;
+  background: rgb(121,228,244);
+  background: linear-gradient(190deg, rgba(121,228,244,1) 0%, rgba(35,127,213,1) 100%); 
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+}
+
+option {
+  background: gray;
+}
+
+.background {
+  background: rgb(255, 252, 204);
+  background: linear-gradient(
+    190deg,
+    rgba(255, 252, 204, 1) 0%,
+    rgba(244, 204, 118, 1) 100%
+  );
+  margin: 0;
+  padding: 0;
+  display: grid;
+}
+
+.header {
+  background: rgb(0, 98, 30);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 98, 30, 1) 0%,
+    rgba(8, 154, 85, 1) 32%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 0;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  font-family: "Pixelify Sans", sans-serif;
+  color: white;
+  border: 10px solid white;
+}
+
+.header-text {
+  font-size: 6rem;
+  padding: 0;
+  margin: 2%;
+}
+
+.sub-header-text {
+  font-size: 2rem;
+  margin: 1%;
+  padding: 0;
+}
+
+.query {
+  display: grid;
+  place-items: center;
+  font-family: "Pixelify Sans", sans-serif;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.query-section {
+  place-self: center;
+  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--headertxt);
+  margin: 0;
+  padding: 0;
+}
+
+.query-input {
+  place-self: center;
+  place-items: center;
+}
+
+.query-item {
+  flex-direction: row;
+  margin: 2%;
+}
+
+.query-label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: black;
+  text-align: right;
+  white-space: nowrap;
+  margin-right: 0;
+}
+
+.query-input-box {
+  width: 90%;
+}
+
+.hide {
+  display: none;
+}
+
+.result-table {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 0.5rem;
+  place-self: center;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  overflow: scroll;
+}
+
+.result-table table,
+th,
+td {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  border: 2px solid white;
+  text-align: center;
+}
+
+.result-table th {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.result-table div {
+  width: 80%;
+  max-width: 80%;
+  height: 300px;
+  overflow: auto;
+}
+
+.result-table table {
+  border-collapse: collapse;
+}
+
+.subheader {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1rem;
+  display: grid;
+  place-items: center;
+  place-self: center;
+  color: blue;
+}
+
+.section {
+  display: grid;
+  place-items: center;
+  place-self: center;
+  color: var(--headertxt);
+  margin: 0;
+  padding: 0;
+  grid-column: 1;
+}
+
+.subsection {
+  display: grid;
+  place-items: center;
+  place-self: center;
+}
+
+.section div, h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 3rem;
+}
+
+.section h1 {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 4rem;
+}
+
+.modify {
+  place-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--headertxt);
+  margin: 0;
+  padding: 0;
+  width: 90%;
+}
+
+.modify-item {
+  flex-direction: row;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: black;
+}
+
+.modify h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: black;
+}
+
+.modify p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: black;
+}
+
+img {
+  padding: 50px;
+}
+
+.divider {
+  width: screen;
+  min-width: 100%;
+}
